@@ -1,3 +1,5 @@
+package pack1;
+
 import java.util.Arrays;
 import java.util.Vector;
 
@@ -8,7 +10,7 @@ public class battleBoard {
 
     private String[][] battleBoard;
 
-    //battleBoard constructor
+    //pack1.battleBoard constructor
     public battleBoard(int boardLength,int boardWidth){
         this.boardLength=boardLength;
         this.boardWidth=boardWidth;
@@ -36,7 +38,7 @@ public class battleBoard {
         /*
         for(int i=0;i<boardLength;i++){
             for(int j=0;j<boardWidth;j++){
-                battleBoard[i][j]="*";
+                pack1.battleBoard[i][j]="*";
             }
         }
         */
@@ -51,7 +53,7 @@ public class battleBoard {
     public void buildBattleBoard(Vector<Monster> monsters){
         //fillup board
 
-        //Arrays.fill(battleBoard,'*');
+        //Arrays.fill(pack1.battleBoard,'*');
         //randomlly put monsters on the board
     }
 
